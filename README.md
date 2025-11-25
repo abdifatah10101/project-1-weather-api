@@ -1,4 +1,8 @@
 # 🌤️ Weather Data Pipeline (API → JSON → CSV → PostgreSQL)
+![Python](https://img.shields.io/badge/Python-3.13-blue.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-blue)
+![API](https://img.shields.io/badge/API-Open--Meteo-green)
+![ETL](https://img.shields.io/badge/Pipeline-ETL-yellow)
 
 ## 1. Project Overview
 
@@ -134,7 +138,7 @@ CSV HEADER;
 ### 7. Run all analysis SQL queries
 \i sql/queries.sql
 
-## 7. Future Improvements
+## 8. Future Improvements
 
 - Automate daily extraction using cron, Airflow, or Prefect  
 - Store data in a cloud data warehouse (Snowflake, BigQuery, Redshift)  
@@ -143,4 +147,16 @@ CSV HEADER;
 - Add more weather variables (humidity, wind speed, precipitation)  
 - Integrate multiple APIs for richer datasets  
 - Convert the project into a reusable ETL package  
-- Add unit tests for data extraction and transformation  
+- Add unit tests for data extraction and transformation
+
+## 9. ER Diagram
+
+Below is a simple entity-relationship diagram showing the structure of the `weather_data` table used in this project:
+
+## weather_data
+id (PK) SERIAL
+reading_time TIMESTAMP
+temperature NUMERIC
+
+This table stores hourly weather readings extracted from the Open-Meteo API.
+
