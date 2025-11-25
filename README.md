@@ -4,6 +4,15 @@
 ![API](https://img.shields.io/badge/API-Open--Meteo-green)
 ![ETL](https://img.shields.io/badge/Pipeline-ETL-yellow)
 
+## 🚀 Project Highlights
+
+- Built a complete ETL pipeline from scratch (API → JSON → CSV → PostgreSQL)
+- Converted raw API data into a clean analytical dataset
+- Designed a structured SQL table and loaded real-world weather data
+- Wrote 10+ analytical SQL queries including window functions and rankings
+- Followed industry-standard project structure used by Data Engineers
+
+
 ## 1. Project Overview
 
 This project builds an end-to-end data pipeline that collects hourly weather data from the Open-Meteo API, saves it as raw JSON, transforms it into a clean CSV file, and loads it into a PostgreSQL database for analysis.  
