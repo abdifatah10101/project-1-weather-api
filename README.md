@@ -44,7 +44,6 @@ project/
 └── README.md
 
 
-```markdown
 This structure separates extraction, transformation, and database logic to match industry-standard Data Engineering design patterns.
 
 ## 4. Step-by-Step ETL Process
