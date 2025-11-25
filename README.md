@@ -163,9 +163,9 @@ CSV HEADER;
 Below is a simple entity-relationship diagram showing the structure of the `weather_data` table used in this project:
 
 ## weather_data
-id (PK) SERIAL
-reading_time TIMESTAMP
-temperature NUMERIC
+- id (PK) SERIAL
+- reading_time TIMESTAMP
+- temperature NUMERIC
 
 This table stores hourly weather readings extracted from the Open-Meteo API.
 
