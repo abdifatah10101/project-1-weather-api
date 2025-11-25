@@ -144,5 +144,3 @@ CSV HEADER;
 - Integrate multiple APIs for richer datasets  
 - Convert the project into a reusable ETL package  
 - Add unit tests for data extraction and transformation  
-
-# project-1-weather-api
